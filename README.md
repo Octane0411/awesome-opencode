@@ -1,113 +1,544 @@
-<img width="289" height="100" alt="image" src="https://github.com/user-attachments/assets/aced1e8e-e6be-485a-9015-b822d01ab064" />
+<!-- MAIN CONTAINER -->
+<div align="center">
 
-# awesome-opencode
+<table width="850" border="0" cellspacing="0" cellpadding="0">
+<tbody>
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<!-- =========================================
+     HEADER SECTION
+     ========================================= -->
+<tr>
+<td width="850" align="center" valign="top">
 
-> A curated list of awesome [opencode](https://opencode.ai/) plugins, themes, agents, projects, and resources.
+<br>
+<!-- LOGO -->
+<img src="https://github.com/user-attachments/assets/aced1e8e-e6be-485a-9015-b822d01ab064" width="600" alt="Awesome Opencode" />
+<br><br>
 
-[opencode](https://opencode.ai/) is an AI coding agent for the terminal, built by the team at [SST](https://github.com/sst). This list is a community-driven collection of resources to make it even more powerful.
+<!-- TITLE -->
+<h1>Awesome Opencode</h1>
 
-## 📋 Table of Contents
+<!-- BADGES -->
+<p>
+<a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" height="28" alt="Awesome" /></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/sst/opencode"><img src="https://img.shields.io/github/stars/sst/opencode?style=social" height="28" alt="Opencode Stars" /></a>
+</p>
 
-- [Official Repositories](#official-repositories)
-- [Plugins](#plugins)
-- [Themes](#themes)
-- [Agents](#agents)
-- [Projects](#projects)
-- [Resources](#resources)
+<br>
 
-## Official Repositories
+<!-- DESCRIPTION -->
+<h3>A curated list of plugins, themes, agents, and resources for <a href="https://opencode.ai/">Opencode</a>.</h3>
+<h3>The AI coding agent for the terminal, built by the team at <a href="https://github.com/sst">SST</a>.</h3>
 
-|Name|Stars|Description|
-|---|---|---|
-|[opencode](https://github.com/sst/opencode)|![GitHub Repo stars](https://badgen.net/github/stars/sst/opencode)|The official opencode AI coding agent.|
-|[opencode-sdk-js](https://github.com/sst/opencode-sdk-js)|![GitHub Repo stars](https://badgen.net/github/stars/sst/opencode-sdk-js)|Official JavaScript/TypeScript SDK for opencode.|
-|[opencode-sdk-go](https://github.com/sst/opencode-sdk-go)|![GitHub Repo stars](https://badgen.net/github/stars/sst/opencode-sdk-go)|Official Go SDK for opencode.|
-|[opencode-sdk-python](https://github.com/sst/opencode-sdk-python)|![GitHub Repo stars](https://badgen.net/github/stars/sst/opencode-sdk-python)|Official Python SDK for opencode.|
+<br><br>
 
-## Plugins
+<!-- 
+    NAVIGATION BAR (MARKDOWN SYNTAX)
+    The blank lines above and below the links are CRITICAL.
+    They tell GitHub to interpret this as Markdown links, not just text.
+-->
 
-|Name|Stars|Description|
-|---|---|---|
-|[Ring a Bell Example](https://gist.github.com/ahosker/267f375a65378bcb9a867fd9a195db1e#file-opencode-terminal-bell-plugin-md)|-|A simple plugin to ring the terminal bell once a request is complete.|
-|[Opencode-Google-AI-Search-Plugin](https://github.com/IgorWarzocha/Opencode-Google-AI-Search-Plugin)|![GitHub Repo stars](https://badgen.net/github/stars/IgorWarzocha/Opencode-Google-AI-Search-Plugin)|An opencode plugin that exposes a native tool for querying Google AI Mode (SGE).|
-|[Opencode-Context-Analysis-Plugin](https://github.com/IgorWarzocha/Opencode-Context-Analysis-Plugin)|![GitHub Repo stars](https://badgen.net/github/stars/IgorWarzocha/Opencode-Context-Analysis-Plugin)|An opencode plugin that provides detailed token usage analysis for your AI sessions.|
-|[opencode-ignore](https://github.com/lgladysz/opencode-ignore)|![GitHub Repo stars](https://badgen.net/github/stars/lgladysz/opencode-ignore)|Plugin to ignore directory/file based on pattern.|
-|[opencode-warcraft-notifications](https://github.com/pantheon-org/opencode-warcraft-notifications)|![GitHub Repo stars](https://badgen.net/github/stars/pantheon-org/opencode-warcraft-notifications)|Notification plugin with Warcraft sounds for opencode completion alerts.|
-|[with-context-mcp](https://github.com/boxpositron/with-context-mcp)|![GitHub Repo stars](https://badgen.net/github/stars/boxpositron/with-context-mcp)|MCP server for managing project-specific markdown notes with templates, batch edits, and ignore patterns.|
-|[opencode-skills](https://github.com/malhashemi/opencode-skills)|![GitHub Repo stars](https://badgen.net/github/stars/malhashemi/opencode-skills)|Plugin for managing and organising opencode skills and capabilities.|
-|[openskills](https://github.com/numman-ali/openskills)|![GitHub Repo stars](https://badgen.net/github/stars/numman-ali/openskills)|Alternative skills management plugin for opencode with enhanced features.|
-|[opencode-smart-title](https://github.com/Tarquinen/opencode-smart-title)|![GitHub Repo stars](https://badgen.net/github/stars/Tarquinen/opencode-smart-title)|Auto-generates meaningful session titles using AI.|
-|[opencode-background](https://github.com/zenobi-us/opencode-background)|![GitHub Repo stars](https://badgen.net/github/stars/zenobi-us/opencode-background)|Background process management plugin for opencode.|
-|[opencode-dynamic-context-pruning](https://github.com/Tarquinen/opencode-dynamic-context-pruning)|![GitHub Repo stars](https://badgen.net/github/stars/Tarquinen/opencode-dynamic-context-pruning)|Plugin that optimises token usage by pruning obsolete tool outputs from conversation context.|
-|[opencode-tokenscope](https://github.com/ramtinJ95/opencode-tokenscope)|![GitHub Repo stars](https://badgen.net/github/stars/ramtinJ95/opencode-tokenscope)|Tokenscope, Comprehensive token usage analysis and cost tracking for opencode sessions.|
-|[opencode-openai-codex-auth](https://github.com/numman-ali/opencode-openai-codex-auth)|![GitHub Repo stars](https://badgen.net/github/stars/numman-ali/opencode-openai-codex-auth)|This plugin enables opencode to use OpenAI's Codex backend via ChatGPT Plus/Pro OAuth authentication, allowing you to use your ChatGPT subscription instead of OpenAI Platform API credits.|
-|[OpenHax codex](https://github.com/open-hax/codex)|![GitHub Repo stars](https://badgen.net/github/stars/open-hax/codex)|OAuth authentication plugin for personal coding assistance with ChatGPT Plus/Pro subscriptions - uses OpenAI's official authentication method|
-|[opencode-sessions](https://github.com/malhashemi/opencode-sessions)|![GitHub Repo stars](https://badgen.net/github/stars/malhashemi/opencode-sessions)|Session management plugin for OpenCode with multi-agent collaboration support|
-|[Opencode-Roadmap](https://github.com/IgorWarzocha/Opencode-Roadmap)|![GitHub Repo stars](https://badgen.net/github/stars/IgorWarzocha/Opencode-Roadmap)|Strategic roadmap planning and multi-agent coordination plugin. Provides project-wide planning capabilities with immutable history and auto-archiving.|
-|[opencode-gemini-auth](https://github.com/jenslys/opencode-gemini-auth)|![GitHub Repo stars](https://badgen.net/github/stars/jenslys/opencode-gemini-auth)|Authenticate the Opencode CLI with your Google account so you can use your existing Gemini plan and its included quota instead of API billing|
-|[opencode-direnv](https://github.com/simonwjackson/opencode-direnv)|![GitHub Repo stars](https://badgen.net/github/stars/simonwjackson/opencode-direnv)|Automatically loads direnv environment variables at session start. Perfect for Nix flakes and project-specific environments.|
-|[oh-my-opencode](https://github.com/code-yeongyu/oh-my-opencode)|![GitHub Repo stars](https://badgen.net/github/stars/code-yeongyu/oh-my-opencode)|Background agents, pre-built tools (LSP/AST/MCP), curated agents, and a Claude Code compatible layer.|
-|[@openspoon/subtask2](https://github.com/spoons-and-mirrors/subtask2)|![GitHub Repo stars](https://badgen.net/github/stars/spoons-and-mirrors/subtask2)|Extend opencode /commands into a powerful orchestration system with granular flow control.|
-➡️ **[Suggest a new Plugin in our Discussions!](https://github.com/awesome-opencode/awesome-opencode/discussions/categories/plugins)**
+[**OFFICIAL**](#official) &nbsp;&nbsp;•&nbsp;&nbsp; [**PLUGINS**](#plugins) &nbsp;&nbsp;•&nbsp;&nbsp; [**THEMES**](#themes) &nbsp;&nbsp;•&nbsp;&nbsp; [**AGENTS**](#agents) &nbsp;&nbsp;•&nbsp;&nbsp; [**PROJECTS**](#projects) &nbsp;&nbsp;•&nbsp;&nbsp; [**RESOURCES**](#resources)
 
-## Themes
+<br>
+<hr>
+<br>
 
-|Name|Stars|Description|
-|---|---|---|
-|[opencode-ai-poimandres-theme](https://github.com/ajaxdude/opencode-ai-poimandres-theme)|![GitHub Repo stars](https://badgen.net/github/stars/ajaxdude/opencode-ai-poimandres-theme)|Poimandres theme for opencode.|
-➡️ **[Suggest a new Theme in our Discussions!](https://github.com/awesome-opencode/awesome-opencode/discussions/categories/themes)**
+</td>
+</tr>
 
-## Agents
+<!-- =========================================
+     CONTENT SECTION
+     ========================================= -->
+<tr>
+<td width="850" align="left" valign="top">
 
-|Name|Stars|Description|
-|---|---|---|
-|[Agentic](https://github.com/Cluster444/agentic)|![GitHub Repo stars](https://badgen.net/github/stars/Cluster444/agentic)|Modular AI agents and commands for structured software development with opencode.|
-|[awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents)|![GitHub Repo stars](https://badgen.net/github/stars/VoltAgent/awesome-claude-code-subagents)|Comprehensive reference repository for production-ready Claude Code subagents.|
-|[opencode-agents](https://github.com/darrenhinde/opencode-agents)|![GitHub Repo stars](https://badgen.net/github/stars/darrenhinde/opencode-agents)|A set of opencode configurations, prompts, agents, and plugins for enhanced development workflows.|
+<!-- 
+    ANCHOR TARGETS
+    We use <div id="name"></div>. 
+    GitHub's Markdown links will automatically find these IDs.
+-->
 
-➡️ **[Suggest a new Agent in our Discussions!](https://github.com/awesome-opencode/awesome-opencode/discussions/categories/agents)**
+<div id="official"></div>
 
-## Projects
+<h3>⭐️ Official Repositories</h3>
 
-|Name|Stars|Description|
-|---|---|---|
-|[ocmonitor-share](https://github.com/Shlomob/ocmonitor-share)|![GitHub Repo stars](https://badgen.net/github/stars/Shlomob/ocmonitor-share)|A CLI tool for monitoring and analysing opencode AI coding usage.|
-|[occtx](https://github.com/hungthai1401/occtx)|![GitHub Repo stars](https://badgen.net/github/stars/hungthai1401/occtx)|A command-line tool for switching between different opencode contexts quickly.|
-|[mcp-voice-interface](https://github.com/shantur/mcp-voice-interface)|![GitHub Repo stars](https://badgen.net/github/stars/shantur/mcp-voice-interface)|Talk to AI assistants using your voice through a web browser. Compatible with Claude Desktop, opencode, and other MCP-enabled AI tools.|
-|[Codex-Proxy-Server](https://github.com/unluckyjori/Codex-Proxy-Server)|![GitHub Repo stars](https://badgen.net/github/stars/unluckyjori/Codex-Proxy-Server)|A proxy server that provides a local API proxy for Codex/ChatGPT-like models.|
-|[qwen-code-oai-proxy](https://github.com/aptdnfapt/qwen-code-oai-proxy)|![GitHub Repo stars](https://badgen.net/github/stars/aptdnfapt/qwen-code-oai-proxy)|An OpenAI-Compatible Proxy Server for Qwen models.|
-|[geminicli2api](https://github.com/gzzhongqi/geminicli2api)|![GitHub Repo stars](https://badgen.net/github/stars/gzzhongqi/geminicli2api)|A proxy that converts the Gemini CLI tool into OpenAI-compatible endpoints.|
-|[CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI)|![GitHub Repo stars](https://badgen.net/github/stars/router-for-me/CLIProxyAPI)|A proxy server providing compatible API interfaces for multiple model CLIs.|
-|[opencode.nvim](https://github.com/NickvanDyke/opencode.nvim)|![GitHub Repo stars](https://badgen.net/github/stars/NickvanDyke/opencode.nvim)|Neovim plugin for making convenient editor-aware prompts.|
-|[kimaki](https://github.com/remorses/kimaki/)|![GitHub Repo stars](https://badgen.net/github/stars/remorses/kimaki)|A Discord bot to control opencode sessions on any computer via Discord.|
-|[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)|![GitHub Repo stars](https://badgen.net/github/stars/BloopAI/vibe-kanban)|A Kanban board to manage and orchestrate AI coding agents in parallel.|
-|[opencode-skills](https://github.com/malhashemi/opencode-skills)|![GitHub Repo stars](https://badgen.net/github/stars/malhashemi/opencode-skills)|Skills management system for organising and tracking opencode capabilities.|
-|[opencode-sessions](https://github.com/malhashemi/opencode-sessions)|![GitHub Repo stars](https://badgen.net/github/stars/malhashemi/opencode-sessions)|Session management tool for opencode to track and organise coding sessions.|
-|[Handy](https://github.com/cjpais/Handy)|![GitHub Repo stars](https://badgen.net/github/stars/cjpais/Handy)|Easy Open Source Speech to Text|
-|[opencode-web](https://github.com/kcrommett/opencode-web)|![GitHub Repo stars](https://badgen.net/github/stars/kcrommett/opencode-web)|Web interface for opencode - browser-based access to AI coding agent.|
-|[openspec](https://github.com/Fission-AI/OpenSpec)|![GitHub Repo stars](https://badgen.net/github/stars/Fission-AI/OpenSpec)|Spec-driven development with opencode - structured specification management.|
-|[oc-manager](https://github.com/kcrommett/oc-manager)|![GitHub Repo stars](https://badgen.net/github/stars/kcrommett/oc-manager)|Terminal UI for inspecting, filtering, and pruning OpenCode metadata stored on disk. The app is written in TypeScript, runs on Bun, and renders with @opentui/react.|
-|[beads](https://github.com/steveyegge/beads)|![GitHub Repo stars](https://badgen.net/github/stars/steveyegge/beads)|Steve Yegge's project/task management system for agents (with beads_viewer UI)|
-|[opencode-ddev](https://github.com/JUVOJustin/opencode-ddev)|![GitHub Repo stars](https://badgen.net/github/stars/JUVOJustin/opencode-ddev)|Wraps bash commands to execute inside the DDEV container (Docker-based PHP development environments).|
-➡️ **[Suggest a new Project in our Discussions!](https://github.com/awesome-opencode/awesome-opencode/discussions/categories/projects)**
+| Project | Stars | Description |
+| :--- | :--- | :--- |
+| **[opencode](https://github.com/sst/opencode)** | ![Stars](https://badgen.net/github/stars/sst/opencode) | The official opencode AI coding agent. |
+| **[opencode-sdk-js](https://github.com/sst/opencode-sdk-js)** | ![Stars](https://badgen.net/github/stars/sst/opencode-sdk-js) | Official JavaScript/TypeScript SDK for opencode. |
+| **[opencode-sdk-go](https://github.com/sst/opencode-sdk-go)** | ![Stars](https://badgen.net/github/stars/sst/opencode-sdk-go) | Official Go SDK for opencode. |
+| **[opencode-sdk-python](https://github.com/sst/opencode-sdk-python)** | ![Stars](https://badgen.net/github/stars/sst/opencode-sdk-python) | Official Python SDK for opencode. |
 
-## Resources
+<br>
 
-|Name|Stars|Description|
-|---|---|---|
-|[GoTTY](https://github.com/sorenisanerd/gotty)|![GitHub Repo stars](https://badgen.net/github/stars/sorenisanerd/gotty)|A simple command-line tool that turns your CLI tools, like opencode, into web applications.|
-|[OpenCode Debug Log to Text File](https://github.com/awesome-opencode/awesome-opencode/discussions/19)|-|How to output a debug log from opencode to a text file for troubleshooting.|
+<div id="plugins"></div>
 
-➡️ **[Suggest a new Resource in our Discussions!](https://github.com/awesome-opencode/awesome-opencode/discussions/categories/resources)**
+<details open>
+<summary><strong>🧩 PLUGINS</strong></summary>
+<br>
 
----
+<details>
+  <summary><b>Ring a Bell Example</b> - <i>Simple terminal bell plugin</i></summary>
+  <blockquote>
+    A simple plugin to ring the terminal bell once a request is complete.
+    <br><br>
+    <a href="https://gist.github.com/ahosker/267f375a65378bcb9a867fd9a195db1e#file-opencode-terminal-bell-plugin-md">🔗 <b>View Gist</b></a>
+  </blockquote>
+</details>
 
-## 🤝 Contributing
+<details>
+  <summary><b>Google AI Search</b> <img src="https://badgen.net/github/stars/IgorWarzocha/Opencode-Google-AI-Search-Plugin" height="14"/> - <i>Query Google AI Mode (SGE)</i></summary>
+  <blockquote>
+    An opencode plugin that exposes a native tool for querying Google AI Mode (SGE).
+    <br><br>
+    <a href="https://github.com/IgorWarzocha/Opencode-Google-AI-Search-Plugin">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
 
-Found an Awesome Opencode project? Please contribute by **[starting a new discussion](https://github.com/awesome-opencode/awesome-opencode/discussions)** in the appropriate category.
+<details>
+  <summary><b>Context Analysis</b> <img src="https://badgen.net/github/stars/IgorWarzocha/Opencode-Context-Analysis-Plugin" height="14"/> - <i>Token usage analysis</i></summary>
+  <blockquote>
+    An opencode plugin that provides detailed token usage analysis for your AI sessions.
+    <br><br>
+    <a href="https://github.com/IgorWarzocha/Opencode-Context-Analysis-Plugin">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
 
-## 📄 License
+<details>
+  <summary><b>Opencode Ignore</b> <img src="https://badgen.net/github/stars/lgladysz/opencode-ignore" height="14"/> - <i>Ignore files based on pattern</i></summary>
+  <blockquote>
+    Plugin to ignore directory/file based on pattern.
+    <br><br>
+    <a href="https://github.com/lgladysz/opencode-ignore">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
 
-This awesome opencode list is released under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) license.
+<details>
+  <summary><b>Warcraft Notifications</b> <img src="https://badgen.net/github/stars/pantheon-org/opencode-warcraft-notifications" height="14"/> - <i>Fun sound notifications</i></summary>
+  <blockquote>
+    Notification plugin with Warcraft sounds for opencode completion alerts.
+    <br><br>
+    <a href="https://github.com/pantheon-org/opencode-warcraft-notifications">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>With Context MCP</b> <img src="https://badgen.net/github/stars/boxpositron/with-context-mcp" height="14"/> - <i>Project-specific markdown notes</i></summary>
+  <blockquote>
+    MCP server for managing project-specific markdown notes with templates, batch edits, and ignore patterns.
+    <br><br>
+    <a href="https://github.com/boxpositron/with-context-mcp">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Opencode Skills</b> <img src="https://badgen.net/github/stars/malhashemi/opencode-skills" height="14"/> - <i>Manage skills and capabilities</i></summary>
+  <blockquote>
+    Plugin for managing and organising opencode skills and capabilities.
+    <br><br>
+    <a href="https://github.com/malhashemi/opencode-skills">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Openskills</b> <img src="https://badgen.net/github/stars/numman-ali/openskills" height="14"/> - <i>Alternative skills manager</i></summary>
+  <blockquote>
+    Alternative skills management plugin for opencode with enhanced features.
+    <br><br>
+    <a href="https://github.com/numman-ali/openskills">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Smart Title</b> <img src="https://badgen.net/github/stars/Tarquinen/opencode-smart-title" height="14"/> - <i>Auto-generate session titles</i></summary>
+  <blockquote>
+    Auto-generates meaningful session titles using AI.
+    <br><br>
+    <a href="https://github.com/Tarquinen/opencode-smart-title">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Background</b> <img src="https://badgen.net/github/stars/zenobi-us/opencode-background" height="14"/> - <i>Background process management</i></summary>
+  <blockquote>
+    Background process management plugin for opencode.
+    <br><br>
+    <a href="https://github.com/zenobi-us/opencode-background">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Dynamic Context Pruning</b> <img src="https://badgen.net/github/stars/Tarquinen/opencode-dynamic-context-pruning" height="14"/> - <i>Optimize token usage</i></summary>
+  <blockquote>
+    Plugin that optimises token usage by pruning obsolete tool outputs from conversation context.
+    <br><br>
+    <a href="https://github.com/Tarquinen/opencode-dynamic-context-pruning">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Tokenscope</b> <img src="https://badgen.net/github/stars/ramtinJ95/opencode-tokenscope" height="14"/> - <i>Token analysis & cost tracking</i></summary>
+  <blockquote>
+    Tokenscope, Comprehensive token usage analysis and cost tracking for opencode sessions.
+    <br><br>
+    <a href="https://github.com/ramtinJ95/opencode-tokenscope">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>OpenAI Codex Auth</b> <img src="https://badgen.net/github/stars/numman-ali/opencode-openai-codex-auth" height="14"/> - <i>ChatGPT Plus/Pro OAuth</i></summary>
+  <blockquote>
+    This plugin enables opencode to use OpenAI's Codex backend via ChatGPT Plus/Pro OAuth authentication.
+    <br><br>
+    <a href="https://github.com/numman-ali/opencode-openai-codex-auth">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>OpenHax Codex</b> <img src="https://badgen.net/github/stars/open-hax/codex" height="14"/> - <i>OAuth authentication</i></summary>
+  <blockquote>
+    OAuth authentication plugin for personal coding assistance with ChatGPT Plus/Pro subscriptions.
+    <br><br>
+    <a href="https://github.com/open-hax/codex">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Opencode Sessions</b> <img src="https://badgen.net/github/stars/malhashemi/opencode-sessions" height="14"/> - <i>Session management</i></summary>
+  <blockquote>
+    Session management plugin for OpenCode with multi-agent collaboration support.
+    <br><br>
+    <a href="https://github.com/malhashemi/opencode-sessions">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Opencode Roadmap</b> <img src="https://badgen.net/github/stars/IgorWarzocha/Opencode-Roadmap" height="14"/> - <i>Strategic planning</i></summary>
+  <blockquote>
+    Strategic roadmap planning and multi-agent coordination plugin. Provides project-wide planning capabilities.
+    <br><br>
+    <a href="https://github.com/IgorWarzocha/Opencode-Roadmap">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Gemini Auth</b> <img src="https://badgen.net/github/stars/jenslys/opencode-gemini-auth" height="14"/> - <i>Google account auth</i></summary>
+  <blockquote>
+    Authenticate the Opencode CLI with your Google account so you can use your existing Gemini plan.
+    <br><br>
+    <a href="https://github.com/jenslys/opencode-gemini-auth">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Direnv</b> <img src="https://badgen.net/github/stars/simonwjackson/opencode-direnv" height="14"/> - <i>Load direnv variables</i></summary>
+  <blockquote>
+    Automatically loads direnv environment variables at session start. Perfect for Nix flakes.
+    <br><br>
+    <a href="https://github.com/simonwjackson/opencode-direnv">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Oh My Opencode</b> <img src="https://badgen.net/github/stars/code-yeongyu/oh-my-opencode" height="14"/> - <i>Agents & Pre-built tools</i></summary>
+  <blockquote>
+    Background agents, pre-built tools (LSP/AST/MCP), curated agents, and a Claude Code compatible layer.
+    <br><br>
+    <a href="https://github.com/code-yeongyu/oh-my-opencode">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Subtask2</b> <img src="https://badgen.net/github/stars/spoons-and-mirrors/subtask2" height="14"/> - <i>Orchestration system</i></summary>
+  <blockquote>
+    Extend opencode /commands into a powerful orchestration system with granular flow control.
+    <br><br>
+    <a href="https://github.com/spoons-and-mirrors/subtask2">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<br>
+<a href="https://github.com/awesome-opencode/awesome-opencode/discussions/categories/plugins"><b>➕ Suggest a Plugin</b></a>
+</details>
+
+<br>
+
+<div id="themes"></div>
+
+<details>
+<summary><strong>🎨 THEMES</strong></summary>
+<br>
+
+<details>
+  <summary><b>Poimandres Theme</b> <img src="https://badgen.net/github/stars/ajaxdude/opencode-ai-poimandres-theme" height="14"/> - <i>Poimandres theme</i></summary>
+  <blockquote>
+    Poimandres theme for opencode.
+    <br><br>
+    <a href="https://github.com/ajaxdude/opencode-ai-poimandres-theme">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<br>
+<a href="https://github.com/awesome-opencode/awesome-opencode/discussions/categories/themes"><b>➕ Suggest a Theme</b></a>
+</details>
+
+<br>
+
+<div id="agents"></div>
+
+<details>
+<summary><strong>🤖 AGENTS</strong></summary>
+<br>
+
+<details>
+  <summary><b>Agentic</b> <img src="https://badgen.net/github/stars/Cluster444/agentic" height="14"/> - <i>Modular AI agents</i></summary>
+  <blockquote>
+    Modular AI agents and commands for structured software development with opencode.
+    <br><br>
+    <a href="https://github.com/Cluster444/agentic">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Claude Subagents</b> <img src="https://badgen.net/github/stars/VoltAgent/awesome-claude-code-subagents" height="14"/> - <i>Claude Code subagents</i></summary>
+  <blockquote>
+    Comprehensive reference repository for production-ready Claude Code subagents.
+    <br><br>
+    <a href="https://github.com/VoltAgent/awesome-claude-code-subagents">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Opencode Agents</b> <img src="https://badgen.net/github/stars/darrenhinde/opencode-agents" height="14"/> - <i>Enhanced workflows</i></summary>
+  <blockquote>
+    A set of opencode configurations, prompts, agents, and plugins for enhanced development workflows.
+    <br><br>
+    <a href="https://github.com/darrenhinde/opencode-agents">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<br>
+<a href="https://github.com/awesome-opencode/awesome-opencode/discussions/categories/agents"><b>➕ Suggest an Agent</b></a>
+</details>
+
+<br>
+
+<div id="projects"></div>
+
+<details>
+<summary><strong>🛠 PROJECTS</strong></summary>
+<br>
+
+<details>
+  <summary><b>OC Monitor Share</b> <img src="https://badgen.net/github/stars/Shlomob/ocmonitor-share" height="14"/> - <i>CLI monitoring tool</i></summary>
+  <blockquote>
+    A CLI tool for monitoring and analysing opencode AI coding usage.
+    <br><br>
+    <a href="https://github.com/Shlomob/ocmonitor-share">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>OC Context (occtx)</b> <img src="https://badgen.net/github/stars/hungthai1401/occtx" height="14"/> - <i>Switch contexts quickly</i></summary>
+  <blockquote>
+    A command-line tool for switching between different opencode contexts quickly.
+    <br><br>
+    <a href="https://github.com/hungthai1401/occtx">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>MCP Voice Interface</b> <img src="https://badgen.net/github/stars/shantur/mcp-voice-interface" height="14"/> - <i>Talk to AI assistants</i></summary>
+  <blockquote>
+    Talk to AI assistants using your voice through a web browser. Compatible with Claude Desktop and opencode.
+    <br><br>
+    <a href="https://github.com/shantur/mcp-voice-interface">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Codex Proxy Server</b> <img src="https://badgen.net/github/stars/unluckyjori/Codex-Proxy-Server" height="14"/> - <i>Local API proxy</i></summary>
+  <blockquote>
+    A proxy server that provides a local API proxy for Codex/ChatGPT-like models.
+    <br><br>
+    <a href="https://github.com/unluckyjori/Codex-Proxy-Server">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Qwen Code OAI Proxy</b> <img src="https://badgen.net/github/stars/aptdnfapt/qwen-code-oai-proxy" height="14"/> - <i>Qwen model proxy</i></summary>
+  <blockquote>
+    An OpenAI-Compatible Proxy Server for Qwen models.
+    <br><br>
+    <a href="https://github.com/aptdnfapt/qwen-code-oai-proxy">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Gemini CLI to API</b> <img src="https://badgen.net/github/stars/gzzhongqi/geminicli2api" height="14"/> - <i>Gemini proxy</i></summary>
+  <blockquote>
+    A proxy that converts the Gemini CLI tool into OpenAI-compatible endpoints.
+    <br><br>
+    <a href="https://github.com/gzzhongqi/geminicli2api">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>CLI Proxy API</b> <img src="https://badgen.net/github/stars/router-for-me/CLIProxyAPI" height="14"/> - <i>Multi-model proxy</i></summary>
+  <blockquote>
+    A proxy server providing compatible API interfaces for multiple model CLIs.
+    <br><br>
+    <a href="https://github.com/router-for-me/CLIProxyAPI">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Opencode Neovim</b> <img src="https://badgen.net/github/stars/NickvanDyke/opencode.nvim" height="14"/> - <i>Neovim plugin</i></summary>
+  <blockquote>
+    Neovim plugin for making convenient editor-aware prompts.
+    <br><br>
+    <a href="https://github.com/NickvanDyke/opencode.nvim">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Kimaki</b> <img src="https://badgen.net/github/stars/remorses/kimaki/" height="14"/> - <i>Discord bot controller</i></summary>
+  <blockquote>
+    A Discord bot to control opencode sessions on any computer via Discord.
+    <br><br>
+    <a href="https://github.com/remorses/kimaki/">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Vibe Kanban</b> <img src="https://badgen.net/github/stars/BloopAI/vibe-kanban" height="14"/> - <i>Manage AI in parallel</i></summary>
+  <blockquote>
+    A Kanban board to manage and orchestrate AI coding agents in parallel.
+    <br><br>
+    <a href="https://github.com/BloopAI/vibe-kanban">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Opencode Skills</b> <img src="https://badgen.net/github/stars/malhashemi/opencode-skills" height="14"/> - <i>Skills management</i></summary>
+  <blockquote>
+    Skills management system for organising and tracking opencode capabilities.
+    <br><br>
+    <a href="https://github.com/malhashemi/opencode-skills">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Opencode Sessions</b> <img src="https://badgen.net/github/stars/malhashemi/opencode-sessions" height="14"/> - <i>Session tracker</i></summary>
+  <blockquote>
+    Session management tool for opencode to track and organise coding sessions.
+    <br><br>
+    <a href="https://github.com/malhashemi/opencode-sessions">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Handy</b> <img src="https://badgen.net/github/stars/cjpais/Handy" height="14"/> - <i>Speech to Text</i></summary>
+  <blockquote>
+    Easy Open Source Speech to Text.
+    <br><br>
+    <a href="https://github.com/cjpais/Handy">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Opencode Web</b> <img src="https://badgen.net/github/stars/kcrommett/opencode-web" height="14"/> - <i>Browser-based access</i></summary>
+  <blockquote>
+    Web interface for opencode - browser-based access to AI coding agent.
+    <br><br>
+    <a href="https://github.com/kcrommett/opencode-web">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>OpenSpec</b> <img src="https://badgen.net/github/stars/Fission-AI/OpenSpec" height="14"/> - <i>Spec-driven development</i></summary>
+  <blockquote>
+    Spec-driven development with opencode - structured specification management.
+    <br><br>
+    <a href="https://github.com/Fission-AI/OpenSpec">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>OC Manager</b> <img src="https://badgen.net/github/stars/kcrommett/oc-manager" height="14"/> - <i>Metadata TUI</i></summary>
+  <blockquote>
+    Terminal UI for inspecting, filtering, and pruning OpenCode metadata stored on disk.
+    <br><br>
+    <a href="https://github.com/kcrommett/oc-manager">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Beads</b> <img src="https://badgen.net/github/stars/steveyegge/beads" height="14"/> - <i>Project task management</i></summary>
+  <blockquote>
+    Steve Yegge's project/task management system for agents (with beads_viewer UI).
+    <br><br>
+    <a href="https://github.com/steveyegge/beads">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Opencode DDEV</b> <img src="https://badgen.net/github/stars/JUVOJustin/opencode-ddev" height="14"/> - <i>DDEV container wrapper</i></summary>
+  <blockquote>
+    Wraps bash commands to execute inside the DDEV container (Docker-based PHP development environments).
+    <br><br>
+    <a href="https://github.com/JUVOJustin/opencode-ddev">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<br>
+<a href="https://github.com/awesome-opencode/awesome-opencode/discussions/categories/projects"><b>➕ Suggest a Project</b></a>
+</details>
+
+<br>
+
+<div id="resources"></div>
+
+<details>
+<summary><strong>📚 RESOURCES</strong></summary>
+<br>
+
+<details>
+  <summary><b>GoTTY</b> <img src="https://badgen.net/github/stars/sorenisanerd/gotty" height="14"/> - <i>Turn CLI into Web App</i></summary>
+  <blockquote>
+    A simple command-line tool that turns your CLI tools, like opencode, into web applications.
+    <br><br>
+    <a href="https://github.com/sorenisanerd/gotty">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Debug Log to Text File</b> - <i>Troubleshooting guide</i></summary>
+  <blockquote>
+    How to output a debug log from opencode to a text file for troubleshooting.
+    <br><br>
+    <a href="https://github.com/awesome-opencode/awesome-opencode/discussions/19">🔗 <b>View Discussion</b></a>
+  </blockquote>
+</details>
+
+<br>
+<a href="https://github.com/awesome-opencode/awesome-opencode/discussions/categories/resources"><b>➕ Suggest a Resource</b></a>
+</details>
+
+<br><br>
+
+<div align="center">
+<h3>🤝 Contributing</h3>
+Found an Awesome Opencode project? <br>
+<a href="https://github.com/awesome-opencode/awesome-opencode/discussions"><b>Start a discussion</b></a> in the appropriate category!
+<br><br>
+<sub>Released under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a>.</sub>
+</div>
+
+</td>
+</tr>
+</tbody>
+</table>
+</div>
