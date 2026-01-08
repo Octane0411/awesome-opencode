@@ -50,6 +50,7 @@
 |[opencode-direnv](https://github.com/simonwjackson/opencode-direnv)|![GitHub Repo stars](https://badgen.net/github/stars/simonwjackson/opencode-direnv)|Automatically loads direnv environment variables at session start. Perfect for Nix flakes and project-specific environments.|
 |[oh-my-opencode](https://github.com/code-yeongyu/oh-my-opencode)|![GitHub Repo stars](https://badgen.net/github/stars/code-yeongyu/oh-my-opencode)|Background agents, pre-built tools (LSP/AST/MCP), curated agents, and a Claude Code compatible layer.|
 |[@openspoon/subtask2](https://github.com/spoons-and-mirrors/subtask2)|![GitHub Repo stars](https://badgen.net/github/stars/spoons-and-mirrors/subtask2)|Extend opencode /commands into a powerful orchestration system with granular flow control.|
+|[octto](https://github.com/vtemian/octto)|![GitHub Repo stars](https://badgen.net/github/stars/vtemian/octto)|Interactive browser UI for AI brainstorming with multi-question forms, parallel exploration branches, and visual feedback.|
 ➡️ **[Suggest a new Plugin in our Discussions!](https://github.com/awesome-opencode/awesome-opencode/discussions/categories/plugins)**
 
 ## Themes
