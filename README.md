@@ -62,6 +62,15 @@
 </details>
 
 <details>
+  <summary><b>Background Agents</b> <img src="https://badgen.net/github/stars/kdcokenny/opencode-background-agents" height="14"/> - <i>Async agent delegation</i></summary>
+  <blockquote>
+    Claude Code-style background agents with async delegation and context persistence.
+    <br><br>
+    <a href="https://github.com/kdcokenny/opencode-background-agents">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>CC Safety Net</b> <img src="https://badgen.net/github/stars/kenryu42/claude-code-safety-net" height="14"/> - <i>Safety net catching destructive commands</i></summary>
   <blockquote>
     A Claude Code plugin that acts as a safety net, catching destructive git and filesystem commands before they execute.
@@ -116,6 +125,24 @@
 </details>
 
 <details>
+  <summary><b>Micode</b> <img src="https://badgen.net/github/stars/vtemian/micode" height="14"/> - <i>Brainstorm-Plan-Implement workflow</i></summary>
+  <blockquote>
+    Structured workflow with session continuity, subagent orchestration, git worktree isolation, and AST-aware tools.
+    <br><br>
+    <a href="https://github.com/vtemian/micode">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Morph Fast Apply</b> <img src="https://badgen.net/github/stars/JRedeker/opencode-morph-fast-apply" height="14"/> - <i>10,500+ tokens/sec code editing</i></summary>
+  <blockquote>
+    Integrates Morph's Fast Apply API for faster code editing with lazy edit markers and unified diff output.
+    <br><br>
+    <a href="https://github.com/JRedeker/opencode-morph-fast-apply">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Oh My Opencode</b> <img src="https://badgen.net/github/stars/code-yeongyu/oh-my-opencode" height="14"/> - <i>Agents & Pre-built tools</i></summary>
   <blockquote>
     Background agents, pre-built tools (LSP/AST/MCP), curated agents, and a Claude Code compatible layer.
@@ -152,6 +179,15 @@
 </details>
 
 <details>
+  <summary><b>Opencode Notify</b> <img src="https://badgen.net/github/stars/kdcokenny/opencode-notify" height="14"/> - <i>Native OS notifications</i></summary>
+  <blockquote>
+    Native OS notifications for OpenCode - know when tasks complete.
+    <br><br>
+    <a href="https://github.com/kdcokenny/opencode-notify">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Opencode Roadmap</b> <img src="https://badgen.net/github/stars/IgorWarzocha/Opencode-Roadmap" height="14"/> - <i>Strategic planning</i></summary>
   <blockquote>
     Strategic roadmap planning and multi-agent coordination plugin. Provides project-wide planning capabilities.
@@ -179,6 +215,33 @@
 </details>
 
 <details>
+  <summary><b>Opencode Synced</b> <img src="https://badgen.net/github/stars/iHildy/opencode-synced" height="14"/> - <i>Sync configs across machines</i></summary>
+  <blockquote>
+    Enables syncing global opencode configurations across machines with public/private visibility options.
+    <br><br>
+    <a href="https://github.com/iHildy/opencode-synced">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Opencode Workspace</b> <img src="https://badgen.net/github/stars/kdcokenny/opencode-workspace" height="14"/> - <i>Multi-agent orchestration</i></summary>
+  <blockquote>
+    Bundled multi-agent orchestration harness with 16 components in one install.
+    <br><br>
+    <a href="https://github.com/kdcokenny/opencode-workspace">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Opencode Worktree</b> <img src="https://badgen.net/github/stars/kdcokenny/opencode-worktree" height="14"/> - <i>Zero-friction git worktrees</i></summary>
+  <blockquote>
+    Zero-friction git worktrees for OpenCode. Auto-spawns terminals, syncs files, cleans up on exit.
+    <br><br>
+    <a href="https://github.com/kdcokenny/opencode-worktree">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>OpenHax Codex</b> <img src="https://badgen.net/github/stars/open-hax/codex" height="14"/> - <i>OAuth authentication</i></summary>
   <blockquote>
     OAuth authentication plugin for personal coding assistance with ChatGPT Plus/Pro subscriptions.
@@ -197,6 +260,24 @@
 </details>
 
 <details>
+  <summary><b>Plannotator</b> <img src="https://badgen.net/github/stars/backnotprop/plannotator" height="14"/> - <i>Interactive plan review UI</i></summary>
+  <blockquote>
+    Plan review UI with visual annotation, private/offline sharing, and Obsidian/Bear integration.
+    <br><br>
+    <a href="https://github.com/backnotprop/plannotator">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Ralph Wiggum</b> <img src="https://badgen.net/github/stars/Th0rgal/opencode-ralph-wiggum" height="14"/> - <i>Self-correcting agent loops</i></summary>
+  <blockquote>
+    Iterative AI development loops with self-correcting agents based on the Ralph Wiggum technique.
+    <br><br>
+    <a href="https://github.com/Th0rgal/opencode-ralph-wiggum">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Ring a Bell Example</b> - <i>Simple terminal bell plugin</i></summary>
   <blockquote>
     A simple plugin to ring the terminal bell once a request is complete.
@@ -206,11 +287,29 @@
 </details>
 
 <details>
+  <summary><b>Shell Strategy</b> <img src="https://badgen.net/github/stars/JRedeker/opencode-shell-strategy" height="14"/> - <i>Avoid interactive shell hangs</i></summary>
+  <blockquote>
+    Instructions file that teaches LLMs how to avoid interactive shell commands that hang in non-TTY environments.
+    <br><br>
+    <a href="https://github.com/JRedeker/opencode-shell-strategy">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Smart Title</b> <img src="https://badgen.net/github/stars/Tarquinen/opencode-smart-title" height="14"/> - <i>Auto-generate session titles</i></summary>
   <blockquote>
     Auto-generates meaningful session titles using AI.
     <br><br>
     <a href="https://github.com/Tarquinen/opencode-smart-title">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Smart Voice Notify</b> <img src="https://badgen.net/github/stars/Tarquinen/opencode-smart-voice-notify" height="14"/> - <i>Intelligent voice notifications</i></summary>
+  <blockquote>
+    Smart voice notification plugin with multiple TTS engines (ElevenLabs, Edge TTS, SAPI) and intelligent reminder system.
+    <br><br>
+    <a href="https://github.com/Tarquinen/opencode-smart-voice-notify">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -427,6 +526,15 @@
     Interactive browser UI for AI brainstorming with multi-question forms, parallel exploration branches, and visual feedback.
     <br><br>
     <a href="https://github.com/vtemian/octto">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>OCX</b> <img src="https://badgen.net/github/stars/kdcokenny/ocx" height="14"/> - <i>OpenCode package manager</i></summary>
+  <blockquote>
+    The missing package manager for OpenCode extensions - ShadCN model with Ghost Mode.
+    <br><br>
+    <a href="https://github.com/kdcokenny/ocx">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
