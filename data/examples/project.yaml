@@ -10,8 +10,7 @@
 name: Example OpenCode Dashboard
 repo: https://github.com/example/opencode-dashboard
 tagline: Web-based dashboard for monitoring OpenCode sessions
-description:
-  A standalone web application for monitoring and managing
+description: A standalone web application for monitoring and managing
   OpenCode sessions across multiple projects.
   
   Features
