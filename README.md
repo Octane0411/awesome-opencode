@@ -206,15 +206,6 @@
 </details>
 
 <details>
-  <summary><b>IAM</b> <img src="https://badgen.net/github/stars/spoons-and-mirrors/iam" height="14"/> - <i>Inter agent messaging</i></summary>
-  <blockquote>
-    Allows for parallel subagents communication with a simple yet effective messaging system. Subagents are aware of each other, can announce their status, broadcast, and read messages asynchronously.
-    <br><br>
-    <a href="https://github.com/spoons-and-mirrors/iam">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
   <summary><b>Micode</b> <img src="https://badgen.net/github/stars/vtemian/micode" height="14"/> - <i>Brainstorm-Plan-Implement workflow</i></summary>
   <blockquote>
     Structured workflow with session continuity, subagent orchestration, git worktree isolation, and AST-aware tools.
@@ -418,6 +409,15 @@
     Focuses on providing the CICD setup with generator script, release please, bun publish, npm trusted publishing, and mise tasks.
     <br><br>
     <a href="https://github.com/zenobi-us/opencode-plugin-template">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Pocket Universe</b> <img src="https://badgen.net/github/stars/spoons-and-mirrors/pocket-universe" height="14"/> - <i>A subagent driven pocket universe for your primary agent</i></summary>
+  <blockquote>
+    Async agents can be powerful, but orchestration is at best finicky; they fire and forget, orphan work, lose context, waste time... and tokens. This plugin extends the native opencode subagent paradigm to provide closed loop, resilient, async agents, blocking main thread execution. A "pocket universe". This ships with three tools creating a robust system for parallel subagents to communicate and coordinate work
+    <br><br>
+    <a href="https://github.com/spoons-and-mirrors/pocket-universe">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
